@@ -302,100 +302,100 @@
     </main>
     <footer class="logo-footer">
     <div class="container footer-container"> 
-       <div class="contact-footer">
-         <a class="logo-web" href="./index.html"><span class="web-footer">Web</span>Studio</a>
-         <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-            <ul class="contact-section">
-            <li class="contact-footer-item"><a class="contact-section-link" href="mailto:info@deskstudio.com">info@deskstudio.com</a> </li>
-            <li class="contact-footer-item"><a class="contact-section-link" href="tel:+380961111111">+380961111111</a></li>
-        </ul>
-        </div>
-        <div class="footer-soc-net">
+         <div class="contact-footer">
+            <a class="logo-web" href="./index.html"><span class="web-footer">Web</span>Studio</a>
+            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+                <ul class="contact-section">
+                    <li class="contact-footer-item"><a class="contact-section-link" href="mailto:info@deskstudio.com">info@deskstudio.com</a> </li>
+                    <li class="contact-footer-item"><a class="contact-section-link" href="tel:+380961111111">+380961111111</a></li>
+                </ul>
+         </div>
+          <div class="footer-soc-net">
             <h3 class="propose">ПРИСОЕДИНЯЙТЕСЬ</h3>
-         <ul class="social-icons-footer">
-            <li class="social-icon-footer">
-                <a href="" class="social-net-footer">
-                    <svg width="20px" height="20px">
-                        <use href="./imagescvg/sprite.svg#instagram"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="social-icon-footer">
-                <a href="" class="social-net-footer">
-                    <svg width="20px" height="20px">
-                        <use href="./imagescvg/sprite.svg#twiter"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="social-icon-footer">
-                <a href="" class="social-net-footer">
-                    <svg width="20px" height="20px">
-                        <use href="./imagescvg/sprite.svg#facebook"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="social-icon-footer">
-                <a href="" class="social-net-footer">
-                    <svg width="20px" height="20px">
-                        <use href="./imagescvg/sprite.svg#linkedin"></use>
-                    </svg>
-                </a>
-            </li>
-        </ul>
-      </div>
-        <div class="footer-mailing">
-           <h3 class="propose">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
-            <div class="footer-form">
-                <label for="mail"></label>
-                <input type="mail" name="mail" id="mail" placeholder="E-mail" />
-                <button class="subscribe" >Подписаться<svg class="footer-svg" width="24px" height="24px">
-                    <use href="./imagescvg/icon send.svg"></use>
-                </svg></button>
+            <ul class="social-icons-footer">
+                <li class="social-icon-footer">
+                    <a href="" class="social-net-footer">
+                        <svg width="20px" height="20px">
+                            <use href="./imagescvg/sprite.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-icon-footer">
+                    <a href="" class="social-net-footer">
+                        <svg width="20px" height="20px">
+                            <use href="./imagescvg/sprite.svg#twiter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-icon-footer">
+                    <a href="" class="social-net-footer">
+                        <svg width="20px" height="20px">
+                            <use href="./imagescvg/sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-icon-footer">
+                    <a href="" class="social-net-footer">
+                        <svg width="20px" height="20px">
+                            <use href="./imagescvg/sprite.svg#linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+          </div>
+            <div class="footer-mailing">
+                <h3 class="propose">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+                <div class="footer-form">
+                    <label for="mail"></label>
+                    <input type="mail" name="mail" id="mail" placeholder="E-mail" />
+                    <button class="subscribe" >Подписаться<svg class="footer-svg" width="24px" height="24px">
+                        <use href="./imagescvg2/sprite2.svg#icon-icon-send"></use>
+                    </svg></button>
+                </div>
             </div>
 
-         </div>
 
-
-      </div>
+    
     </div>
     </footer>
     <!--MODAL-->
 <div class="backdrop is-hidden" data-modal>
      <div class="modal">
          <form action="">
-            <button data-modal-close>Close</button>
+            <button class="modal-close">&#xd7</button>
             <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
-            <div class="form-field">
-            <label for="name">Имя</label>
-            <input type="text" name="name" id="name" />
-            </div>
+            
+                <label class="form-field" for="name">Имя<input class="modal-input" type="text" name="name" id="name" />
+                    <svg class="modal-icon"><use href='./imagescvg2/sprite2.svg#icon-modai-name'></use></svg>
+                </label>
+                      
+                <label class="form-field" for="tel">Телефон<input class="modal-input" type="tel" name="tel" id="tel" />
+                    <svg class="modal-icon"><use href='./imagescvg2/sprite2.svg#icon-modal-phone'></use></svg>
+                
+                </label>
+                      
+                <label class="form-field" for="mail">Почта<input class="modal-input" type="email" name="mail" id="mail" />
+                    <svg class="modal-icon"><use href='./imagescvg2/sprite2.svg#icon-modal-email'></use></svg>
+                
+                </label>
+                           
+                <label class="form-field" for="comment">Комментарий
+                <textarea class="modal-form-massage" name="comment" id="comment" rows="8" placeholder="&nbsp Введите текст"></textarea>
+                </label>
+            
 
-            <div class="form-field">
-            <label for="tel">Телефон</label>
-            <input type="tel" name="tel" id="tel" />
-            </div>
+           
+            <label class="modal-checkbox" for="policy">
+                <input class="checkbox-win" type="checkbox" name="policy" id="policy">Соглашаюсь с рассылкой и принимаю &nbsp
+                <a class="modal-checkbox-contract" href="">Условия договора</a>
+            </label>
 
-            <div class="form-field">
-            <label for="mail">Почта</label>
-            <input type="уmail" name="mail" id="mail" />
-            </div>
-
-            <div class="form-field">
-            <label for="comment">Комментарий</label>
-            <textarea name="comment" id="comment" rows="8" placeholder="Введите текст"></textarea>
-            </div>
-
-            <input class="checkbox-win" type="checkbox" name="policy" id="policy">
-            <label for="policy">Соглашаюсь с рассылкой и принимаю</label>
-
-            <a href="">Условия договора</a>
-
-            <button type="submit">Отправить</button>
+            <button class="modal-submit" type="submit">Отправить</button>
 
        
          </form>
 
-         <script>
+        <script>
              (() => {
                  document
                  .querySelector('.js-speaker-form')
@@ -409,7 +409,7 @@
                      e.currentTarget.reset();
                  });
              })();
-         </script>
+             </script>
      </div>
    
 </div>
