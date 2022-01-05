@@ -831,13 +831,10 @@ button.button {
   width: 30px;
   height: 30px;
 
-  fill: #000000;
+  fill: currentColor;
 }
-.modal-close-button:focus {
-  fill: var(--second-color);
-}
-.modal-close-button:hover {
-  fill: var(--second-color);
+.modal-close:focus {
+  color: var(--second-color);
 }
 .modal-title {
   margin-bottom: 12px;
