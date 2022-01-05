@@ -362,7 +362,10 @@
 <div class="backdrop is-hidden" data-modal>
      <div class="modal">
          <form action="">
-            <button class="modal-close">&#xd7</button>
+            <button class="modal-close">
+                <svg class="modal-close-button">
+                    <use href='./imagescvg2/sprite2.svg#icon-close-1'></use></svg>
+            </button>
             <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
             
                 <label class="form-field" for="name">Имя<input class="modal-input" type="text" name="name" id="name" />
@@ -380,13 +383,13 @@
                 </label>
                            
                 <label class="form-field" for="comment">Комментарий
-                <textarea class="modal-form-massage" name="comment" id="comment" rows="8" placeholder="&nbsp Введите текст"></textarea>
+                <textarea class="modal-form-massage" name="comment" id="comment" rows="8" placeholder="Введите текст"></textarea>
                 </label>
                        
                 <label class="modal-checkbox">
                     <input class="checkbox" type="checkbox" name="policy">
                     <span class="checkbox-icon"></span>
-                    Соглашаюсь с рассылкой и принимаю &nbsp
+                    Соглашаюсь с рассылкой и принимаю
                     <a class="checkbox-contract" href="">Условия договора</a>
                 </label>
 
