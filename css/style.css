@@ -966,7 +966,7 @@ textarea {
   background-origin: border-box;
 }
 .checkbox:focus + .checkbox-icon {
-  border-color: accent;
+  border-color: var(--second-color);
 }
 
 /*===Modal-button-submit===*/
